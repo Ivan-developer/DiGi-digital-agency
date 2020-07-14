@@ -1,3 +1,8 @@
+.call__title, .call__btn {
+  font-family: "Roboto-Medium";
+  font-weight: 500;
+}
+
 @font-face {
   font-family: "Roboto-Regular";
   font-weight: 400;
@@ -116,7 +121,7 @@ body {
 }
 
 .header {
-  background-color: #2B4074;
+  background-color: #2b4074;
 }
 
 .header__inner {
@@ -168,12 +173,12 @@ body {
   width: 12px;
   height: 2px;
   border-radius: 1px;
-  background-color: #2B4074;
+  background-color: #2b4074;
   position: absolute;
   top: 15px;
   left: 14px;
-  -webkit-box-shadow: 0 4px 0 0 #2B4074, 0 8px 0 0 #2B4074;
-          box-shadow: 0 4px 0 0 #2B4074, 0 8px 0 0 #2B4074;
+  -webkit-box-shadow: 0 4px 0 0 #2b4074, 0 8px 0 0 #2b4074;
+          box-shadow: 0 4px 0 0 #2b4074, 0 8px 0 0 #2b4074;
 }
 
 @media (min-width: 1440px) {
@@ -228,7 +233,7 @@ body {
   height: 8px;
   width: 61px;
   margin: 0 auto;
-  background-color: #4A4A4A;
+  background-color: #4a4a4a;
 }
 
 .top-slider__text {
@@ -260,7 +265,7 @@ body {
 .top-slider .slick-dots button {
   font-size: 0;
   border: none;
-  background-color: #2B4074;
+  background-color: #2b4074;
   padding: 0;
   width: 10px;
   height: 10px;
@@ -283,8 +288,8 @@ body {
     display: block;
     margin: 0 auto 113px;
     font-size: 18px;
-    background-color: #2B4074;
-    color: #F9F6E5;
+    background-color: #2b4074;
+    color: #f9f6e5;
     padding: 16px 45px;
     border: none;
     border-radius: 3px;
@@ -301,11 +306,11 @@ body {
     z-index: 5;
   }
   .top-slider .slick-prev {
-    background-color: #2B4074;
+    background-color: #2b4074;
     top: calc(50% - 56px);
   }
   .top-slider .slick-next {
-    background-color: #F9F6E5;
+    background-color: #f9f6e5;
     bottom: calc(50% - 56px);
   }
 }
@@ -368,7 +373,28 @@ body {
 }
 
 .call {
-  background-color: #2B4074;
+  background-color: #2b4074;
   padding: 40px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.call__title {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.call__text {
+  margin-bottom: 40px;
+}
+
+.call__btn {
+  padding: 16px 15px;
+  color: #2b4074;
+  font-size: 18px;
+  border-radius: 3px;
+  border: none;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */
