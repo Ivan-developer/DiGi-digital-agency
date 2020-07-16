@@ -317,4 +317,16 @@
 .services{
   padding: 25px 0 40px;
   text-align: center;
+  &__title{
+    margin-bottom: 47px;
+  }
+  &__descr{
+    line-height: 24px;
+    font-size: 20px;
+    color: $text-color;
+    margin-bottom: 21px;
+  }
+  &__text{
+    
+  }
 }
