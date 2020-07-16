@@ -3,6 +3,11 @@
   font-weight: 400;
 }
 
+.services__item-title, .services__item-link {
+  font-family: "RobotoCondensed-Bold";
+  font-weight: 700;
+}
+
 .call__title, .call__btn {
   font-family: "Roboto-Medium";
   font-weight: 500;
@@ -53,6 +58,11 @@
 .title {
   font-family: "RobotoCondensed-Regular";
   font-weight: 400;
+}
+
+.services__item-title, .services__item-link {
+  font-family: "RobotoCondensed-Bold";
+  font-weight: 700;
 }
 
 .call__title, .call__btn {
@@ -536,6 +546,7 @@ a {
 
 .services__title {
   margin-bottom: 47px;
+  color: #2b4074;
 }
 
 .services__descr {
@@ -543,5 +554,76 @@ a {
   font-size: 20px;
   color: #4a4a4a;
   margin-bottom: 21px;
+}
+
+.services__text {
+  color: #797979;
+  line-height: 17px;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.services__item {
+  min-height: 310px;
+  border: 1px solid #f9f6e5;
+  border-bottom: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 18px;
+}
+
+.services__item:last-child {
+  border-bottom: 1px solid #f9f6e5;
+}
+
+.services__item:hover .services__item-link,
+.services__item:hover .services__item-text {
+  display: block;
+}
+
+.services__item:hover .services__item-title {
+  margin-bottom: 30px;
+}
+
+.services__item:hover .services__item-img {
+  margin-bottom: 14px;
+}
+
+.services__item:hover .services__item-inner {
+  border: 4px solid #2b4074;
+  margin: 18 0px;
+  padding: 25px 20px 5px;
+  min-height: 277px;
+}
+
+.services__item-img {
+  margin-bottom: 30px;
+}
+
+.services__item-title {
+  line-height: 19px;
+  letter-spacing: 2px;
+  font-size: 16px;
+  color: #4a4a4a;
+}
+
+.services__item-text {
+  display: none;
+  margin-bottom: 17px;
+}
+
+.services__item-link {
+  display: none;
+  letter-spacing: 2px;
+  color: #2b4074;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */
