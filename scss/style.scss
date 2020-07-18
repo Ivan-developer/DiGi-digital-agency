@@ -459,7 +459,8 @@
       &:hover{
         padding: 0 18px;
         .services__item-inner {
-          padding: 25px 34px 5px;
+          margin: 18 0px;
+          padding: 35px 60px 5px;
           min-height: 288px;
         }
       }
@@ -467,3 +468,32 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .services {
+    padding: 52px 0 0;
+    &__title {
+      margin-bottom: 60px;
+    }
+    &__descr {
+      padding-bottom: 46px;
+      margin-bottom: 40px;
+    }
+    &__text {
+      margin-bottom: 32px;
+      max-width: 608px;
+    }
+    &__item {
+      width: 25%;
+      padding: 0 17px;
+      min-height: 277px;
+      &:hover{
+        padding: 0 17px;
+        .services__item-inner {
+          margin: 10 0px;
+          padding: 35px 60px 5px;
+          min-height: 255px;
+        }
+      }
+    }
+  }
+}
