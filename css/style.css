@@ -594,7 +594,7 @@ a {
 .services__item:hover .services__item-link,
 .services__item:hover .services__item-text {
   opacity: 1;
-  height: 100%;
+  height: auto;
   overflow: visible;
 }
 
@@ -613,6 +613,11 @@ a {
   min-height: 277px;
 }
 
+.services__item-inner {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
 .services__item-img {
   margin-bottom: 30px;
 }
@@ -628,6 +633,8 @@ a {
   opacity: 0;
   height: 0;
   overflow: hidden;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 .services__item-text {
@@ -772,7 +779,7 @@ a {
     margin: 0 -100 0 -50px;
   }
   .services__head {
-    min-width: 350px;
+    min-width: 500px;
     max-width: 350px;
     margin-right: 100px;
   }

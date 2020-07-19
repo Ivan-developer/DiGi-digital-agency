@@ -348,7 +348,7 @@
       .services__item-link,
       .services__item-text {
         opacity: 1;
-        height: 100%;
+        height: auto;
         overflow: visible;
       }
       .services__item-title {
@@ -365,6 +365,9 @@
       }
     }
   }
+  &__item-inner{
+    transition: all .5s;
+  }
   &__item-img {
     margin-bottom: 30px;
   }
@@ -380,6 +383,7 @@
     opacity: 0;
     height: 0;
     overflow: hidden;
+    transition: all .5s;
   }
   &__item-text {
     margin-bottom: 17px;
@@ -517,7 +521,7 @@
       margin: 0 -100 0 -50px;
     }
     &__head{
-      min-width: 350px;
+      min-width: 500px;
       max-width: 350px;
       margin-right: 100px;
     }
