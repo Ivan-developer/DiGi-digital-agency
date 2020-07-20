@@ -551,3 +551,74 @@
     }
   }
 }
+
+.project{
+  text-align: center;
+  padding: 20px 0 40px;
+  background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0) 100%);
+  &__title{
+    color: #fff;
+    margin-bottom: 40px;
+    &::after{
+      background-color: #fff;
+    }
+  }
+  &__item-img{
+    min-height: 250px;
+    border-radius: 4px;
+    padding: 12px 14px;
+    &:hover{
+      .project__item-inner{
+        opacity: 1;
+      }
+    }
+  }
+  &__item-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($bg-color, .83);
+    border-radius: 4px;
+    min-height: 227px;
+    opacity: 0;
+    transition: all .5s;
+  }
+  &__item-info,
+  &__item-search{
+    margin: 0 7px;
+  }
+  &__item-link{
+    display: block;
+    padding: 20px 0;
+    letter-spacing: 2px;
+    line-height: 19px;
+    color: $accent;
+    @extend %robotoсondensed-700;
+  }
+
+}
+
+.team{
+  padding: 20px 0 40px;
+  text-align: center;
+  &__images{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  &__title{
+    color: $text-color;
+    margin-bottom: 23px;
+  }
+  &__text{
+    margin-bottom: 84px;
+  }
+  &__btn{
+    border: none;
+    background-color: $accent;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 21px 26px;
+    color: $bg-color;
+  }
+
+}

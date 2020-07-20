@@ -3,7 +3,7 @@
   font-weight: 400;
 }
 
-.services__item-title, .services__item-link {
+.services__item-title, .services__item-link, .project__item-link {
   font-family: "RobotoCondensed-Bold";
   font-weight: 700;
 }
@@ -60,7 +60,7 @@
   font-weight: 400;
 }
 
-.services__item-title, .services__item-link {
+.services__item-title, .services__item-link, .project__item-link {
   font-family: "RobotoCondensed-Bold";
   font-weight: 700;
 }
@@ -807,5 +807,89 @@ a {
     padding: 10px 3px 5px;
     min-height: 255px;
   }
+}
+
+.project {
+  text-align: center;
+  padding: 20px 0 40px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2B4074), to(rgba(43, 64, 116, 0)));
+  background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0) 100%);
+}
+
+.project__title {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.project__title::after {
+  background-color: #fff;
+}
+
+.project__item-img {
+  min-height: 250px;
+  border-radius: 4px;
+  padding: 12px 14px;
+}
+
+.project__item-img:hover .project__item-inner {
+  opacity: 1;
+}
+
+.project__item-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(249, 246, 229, 0.83);
+  border-radius: 4px;
+  min-height: 227px;
+  opacity: 0;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.project__item-info, .project__item-search {
+  margin: 0 7px;
+}
+
+.project__item-link {
+  display: block;
+  padding: 20px 0;
+  letter-spacing: 2px;
+  line-height: 19px;
+  color: #2b4074;
+}
+
+.team {
+  padding: 20px 0 40px;
+  text-align: center;
+}
+
+.team__images {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.team__title {
+  color: #4a4a4a;
+  margin-bottom: 23px;
+}
+
+.team__text {
+  margin-bottom: 84px;
+}
+
+.team__btn {
+  border: none;
+  background-color: #2b4074;
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 21px 26px;
+  color: #f9f6e5;
 }
 /*# sourceMappingURL=style.css.map */
